@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "neue";
+    src: url('../fonts/NeueHaasUnicaPro-Regular.otf');
+}
+
+@font-face {
+    font-family: "neue-bold";
+    src: url('../fonts/NeueHaasUnicaPro-Bold.otf');
+}
+
+@font-face {
+    font-family: "neue-extra";
+    src: url('../fonts/NeueHaasUnicaPro-Black.otf');
+}
+
+
+* {
+    font-family: "neue";
+    color: black;
+}
+
+.logo {
+    width: 400px;
+}
+
+.fw-bold {
+    font-family: "neue-bold";
+}
+
+.fw-9 {
+    font-weight: 900;
+    font-family: "neue-extra";
+}
+
+.btn-warning {
+    background-color: #F29F05 !important;
+    border-color: #F29F05 !important;
+    font-size: 20px;
+    padding: 8px 35px 12px;
+    line-height: 1;
+    font-weight: 600;
+}
+
+.sensor.py-5 {
+    background: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.py-100 {
+    padding: 100px 0;
+}
+
+li h3 {
+    margin: 20px 0;
+}
+
+.art {
+    background-color: #F29F05;
+}
+
+.py-5 {
+    padding: 100px 0 !important;
+}
+
+.img-fluid.arrowImg {
+    width: 145px;
+}
+
+.img-fluid.arrowImg.d-block.mx-auto {
+    position: absolute;
+    top: -120px;
+    right: 150px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+
+@media screen and (max-width: 767px) {
+    .py-5 {
+        padding: 20px 0 !important;
+    }
+
+    .py-100 {
+        padding: 20px 0;
+    }
+
+    .img-fluid.arrowImg.d-block.mx-auto {
+        display: none !important;
+    }
+
+    .footer {
+        text-align: center;
+    }
+}
